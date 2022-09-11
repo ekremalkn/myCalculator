@@ -14,6 +14,7 @@
 		F0CB815128CA426D006E34F0 /* calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0CB814F28CA426D006E34F0 /* calculator.xcdatamodeld */; };
 		F0CB815328CA426E006E34F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CB815228CA426E006E34F0 /* Assets.xcassets */; };
 		F0CB815628CA426E006E34F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CB815428CA426E006E34F0 /* LaunchScreen.storyboard */; };
+		F0CB815E28CB3B77006E34F0 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB815D28CB3B77006E34F0 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F0CB815228CA426E006E34F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0CB815528CA426E006E34F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0CB815728CA426E006E34F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CB815D28CB3B77006E34F0 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,39 @@
 			children = (
 				F0CB814628CA426D006E34F0 /* AppDelegate.swift */,
 				F0CB814828CA426D006E34F0 /* SceneDelegate.swift */,
-				F0CB814A28CA426D006E34F0 /* ViewController.swift */,
-				F0CB814C28CA426D006E34F0 /* Main.storyboard */,
+				F0CB815F28CB3BBD006E34F0 /* Model */,
+				F0CB816028CB3BC6006E34F0 /* View */,
+				F0CB816128CB3BD0006E34F0 /* Controller */,
 				F0CB815228CA426E006E34F0 /* Assets.xcassets */,
 				F0CB815428CA426E006E34F0 /* LaunchScreen.storyboard */,
 				F0CB815728CA426E006E34F0 /* Info.plist */,
 				F0CB814F28CA426D006E34F0 /* calculator.xcdatamodeld */,
 			);
 			path = calculator;
+			sourceTree = "<group>";
+		};
+		F0CB815F28CB3BBD006E34F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB815D28CB3B77006E34F0 /* CalculatorBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0CB816028CB3BC6006E34F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB814C28CA426D006E34F0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0CB816128CB3BD0006E34F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB814A28CA426D006E34F0 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +171,7 @@
 				F0CB814B28CA426D006E34F0 /* ViewController.swift in Sources */,
 				F0CB815128CA426D006E34F0 /* calculator.xcdatamodeld in Sources */,
 				F0CB814728CA426D006E34F0 /* AppDelegate.swift in Sources */,
+				F0CB815E28CB3B77006E34F0 /* CalculatorBrain.swift in Sources */,
 				F0CB814928CA426D006E34F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
