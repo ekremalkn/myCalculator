@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct CalculatorBrain {
 
     var number : Double?
@@ -17,7 +18,8 @@ struct CalculatorBrain {
     mutating func pickNumber(number: Double){
         self.number = number
     }
-
+    
+  
     mutating func calculation(buttonType : String) -> Double? {
             
         if let n = number {
@@ -47,7 +49,8 @@ struct CalculatorBrain {
         if let n1 = calculation1?.n1,
            let operation = calculation1?.typeOfCalculation2 {
 
-
+               
+            
             switch operation {
             case "+":
                 return (n1 + n2)
